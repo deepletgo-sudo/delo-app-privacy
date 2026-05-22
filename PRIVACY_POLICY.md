@@ -1,63 +1,250 @@
-# Privacy Policy for DELO
+# DELO Privacy Policy
 
-**Effective Date:** April 5, 2026
+**Last updated: May 21, 2026**
 
-At Yodha Systems ("we", "us", "our"), we built DELO to be an encrypted emotional sanctuary. Your privacy is not just a feature; it is the fundamental core of the application. This Privacy Policy explains how we handle your information when you use the DELO app.
+---
 
-## 1. Zero-Knowledge Architecture
+## Our Commitment to Your Privacy
 
-DELO is designed so that your secrets remain entirely yours. 
-* **Local Storage:** All your entries, emotional weights, and journal data are stored locally on your device in a secure database. 
-* **On-Device Encryption:** Your entries are encrypted on your device using device-bound keys. We do not have access to your decryption keys, which means **we cannot read your entries.**
-* **No Cloud Syncing of Content:** We do not upload, sync, or transmit your unencrypted emotional content to our servers or any third-party servers.
+DELO is a personal journaling and emotional expression app. We understand that the thoughts and feelings you record are deeply personal. Privacy is not an afterthought — it is the foundation of everything we build.
 
-## 2. Information We Do Not Collect
+This Privacy Policy explains what information we collect, what we do not collect, and how we protect your data.
 
-Because of our zero-knowledge architecture, we **do not** collect, store, or have access to:
-* The text, titles, or content of your entries or "burials."
-* Your passwords or biometric data (biometric authentication is handled securely by your device's native operating system natively, e.g., FaceID/TouchID).
+---
 
-## 3. Information We May Collect
+## 1. Information We Collect
 
-To ensure the app functions correctly and to improve the user experience, we may collect minimal, anonymized data:
-* **Crash Reports and Diagnostics:** If the app crashes, we may collect anonymous diagnostic data to help us fix the issue. This data does not contain your encrypted or unencrypted journal entries.
-* **Basic Analytics:** We may track non-identifiable usage statistics (such as how often the app is opened or which features are most used) to improve the app. This does not involve tracking your personal content.
+We collect minimal information necessary to operate the app:
 
-## 4. Third-Party Services
-We may use trusted third-party services (such as Firebase for anonymous crash reporting or RevenueCat for managing premium subscriptions). These services are governed by their own privacy policies. We **never** share your local journal entries or personal data with these third parties.
+**Device Information (if analytics enabled):**
+- Device model and operating system version
+- App version and build number
+- General usage patterns (screens visited, features used)
+- Crash reports and error logs
 
-## 5. Children & AI Interoperability
-DELO is structured to protect users, including minors. We implement the following framework in compliance with generative AI service provider guidelines (such as Anthropic and Google):
-* **AI Disclosure:** Our emotional Insight tools use AI logic. You are interacting with an AI system, *not* a human therapist.
-* **Age Verification at Subscription:** AI-powered features (Emotional Insights, Pattern Synthesis, Batch Analysis) are restricted to premium subscribers who have completed date-of-birth age verification confirming they are 18 or older. Your date of birth is **never stored** — only a local verification flag is retained on your device.
-* **Minors under 18:** Users under 18 may use all journaling, emotional check-in, and local insight features. AI-powered features require a parent or legal guardian to complete the subscription and age verification on the minor's behalf.
-* **Technical Safeguards:** We strictly route content through child-safe prompt moderation systems to limit harmful or inappropriate context generation. 
-* **COPPA Compliance:** Due to our zero-knowledge, local-only architecture, we do not knowingly or actively collect personal or identifiable data from children on our servers. 
+**Account Information:**
+- Username (optional, stored locally only)
+- Subscription status (managed by Apple/Google via RevenueCat)
+- Legal disclaimer acceptance timestamp
 
-## 6. Data Deletion
-Your data belongs to you. You can permanently delete your data at any time by:
-* Deleting individual entries within the app.
-* Uninstalling the DELO app from your device, which will immediately erase all locally stored encrypted data associated with the app.
+All of the above is either stored locally on your device or processed in anonymized, aggregated form.
 
-## 7. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top.
+---
 
-## 7. India — Digital Personal Data Protection Act (DPDP Act, 2023)
+## 2. Information We Do NOT Collect
 
-If you are accessing DELO from India, the following additional provisions apply in accordance with India's Digital Personal Data Protection Act, 2023 ("DPDP Act"):
+We do NOT collect, transmit, store on servers, or have access to:
 
-* **Data Principal Rights:** As a user in India, you have the right to:
-  * Obtain information about the personal data we process about you.
-  * Correct or update inaccurate personal data.
-  * Request erasure of your personal data where it is no longer necessary for the purpose it was collected.
-  * Nominate another individual to exercise these rights on your behalf in the event of your death or incapacity.
-  * Withdraw consent for processing of your personal data at any time.
-* **Nature of Data Processed:** Given DELO's zero-knowledge architecture, the personal data we process is limited to: anonymous crash diagnostics, anonymous usage analytics (if opted in), and subscription management data handled by RevenueCat. We do not process your emotional entries or journal content on our servers.
-* **Purpose Limitation:** We collect and process personal data only for the specific, lawful purposes described in this Privacy Policy. We do not use your data for purposes beyond those stated herein.
-* **Data Fiduciary:** Yodha Systems acts as the Data Fiduciary under the DPDP Act for personal data processed in connection with your use of DELO.
-* **Grievance Officer:** For any grievances or requests related to your personal data under the DPDP Act, please contact our Grievance Officer at the email address listed in Section 8 below. We will respond to your request within a reasonable timeframe.
-* **Applicable Law:** We comply with all applicable data protection laws in the jurisdictions where we operate, including the DPDP Act and its implementing rules as they are notified and come into force.
+- The content of your journal entries or secrets
+- Your emotions or emotional selections (stored locally only; never shared except as described in Section 5)
+- Your reflection answers or ritual responses
+- Your encryption keys or passwords
+- Your real name, email address, or phone number
+- Your location data
+- Your contacts, photos, or other device data
 
-## 8. Contact Us
-If you have any questions or suggestions about our Privacy Policy, please contact us at:
+Your journal content is encrypted using AES-GCM-256 encryption and stored exclusively on your device. We have no technical ability to access it.
+
+---
+
+## 3. Analytics & Crash Reporting
+
+DELO uses Firebase Analytics and Firebase Crashlytics, services provided by Google, for the following purposes:
+
+**Firebase Crashlytics (always active):**
+- Collects crash reports to help us fix bugs
+- Includes device type, OS version, and stack traces
+- Does NOT include any journal content or emotional data
+
+**Firebase Analytics (opt-in only):**
+- Tracks anonymous usage patterns (e.g., which screens are visited)
+- Helps us understand which features are most valuable
+- Disabled by default — you must opt in via Settings
+- Can be disabled at any time in Settings > Privacy & Security
+
+Google's privacy policy applies to data processed by Firebase: https://policies.google.com/privacy
+
+---
+
+## 4. How We Use Information
+
+The limited information we collect is used exclusively to:
+
+- Fix crashes and improve app stability
+- Understand feature usage to improve the app experience
+- Process subscription purchases (via Apple/Google)
+- Comply with legal obligations
+
+We do NOT use your data for:
+- Targeted advertising
+- Selling to third parties
+- Profiling or behavioral analysis
+- Marketing communications
+
+---
+
+## 5. Data Storage & Encryption
+
+Your journal entries and secrets are:
+
+- Encrypted with AES-GCM-256 (military-grade encryption)
+- Stored exclusively on your device
+- Protected by device-bound encryption keys that never leave your device
+
+App settings and preferences are stored locally using your device's secure storage mechanisms (SharedPreferences, Keychain/Keystore).
+
+**AI Insights (opt-in, Ultra tier only):**
+
+If you choose to enable AI Insights, the decrypted text of released entries is sent to a secure server to generate reflections. This data is:
+
+- Sent anonymously — no user account, name, or identity is attached
+- Not stored on any server after processing
+- Never used for training, advertising, or profiling
+- Only sent for entries you have already released through a Ritual
+
+**Body Awareness Data (somatic zones):**
+
+If you select body zones during a somatic check-in (e.g. "shoulders", "chest"), those selections are stored encrypted on your device and never shared or sold. If AI Insights is enabled, somatic zone names may be included anonymously in the AI payload alongside your entry text to generate richer, more personalised reflections. This data is processed under the same conditions as entry text: not stored on any server after processing, never used for training or profiling, and always anonymous.
+
+---
+
+## 6. Third-Party Services
+
+We use the following third-party services:
+
+**Firebase (Google):**
+- Crash reporting (Crashlytics) and analytics
+- Privacy: https://firebase.google.com/support/privacy
+
+**RevenueCat:**
+- Subscription and in-app purchase management
+- Processes payments through Apple App Store / Google Play
+- Privacy: https://www.revenuecat.com/privacy
+
+These services process only the minimum data necessary for their function. None of them have access to your journal content.
+
+---
+
+## 7. Your Rights
+
+You have the following rights regarding your data:
+
+**Opt-Out of Analytics:**
+- Go to Settings > Privacy & Security > Usage Analytics
+- Toggle off to stop anonymous usage tracking
+- Crash reporting remains active to maintain app quality
+
+**Delete All Data:**
+- Go to Settings > Danger Zone > Erase Everything
+- This securely overwrites all encrypted data and resets the app
+- This action is permanent and cannot be reversed
+
+**Access Your Data:**
+- All your data is stored locally on your device
+- You have direct access to it through the app at all times
+
+For EU/EEA residents (GDPR), California residents (CCPA), and users in other jurisdictions with data protection laws: you may contact us to exercise additional rights at deepletgo@gmail.com.
+
+---
+
+## 8. No Sale of Personal Data
+
+Yodha Systems LLC does NOT sell, rent, trade, or otherwise transfer your personal information to third parties for commercial purposes.
+
+Your journal content, emotional data, and personal information will never be monetized, sold to data brokers, or used for targeted advertising.
+
+The only third-party data sharing that occurs is strictly necessary for app operation (e.g., anonymous crash reports to Firebase, subscription status to RevenueCat) and is governed by their respective privacy policies.
+
+---
+
+## 9. Security Disclaimer
+
+Yodha Systems LLC implements reasonable technical and organizational safeguards to protect your data, including AES-GCM-256 encryption and device-bound keys.
+
+HOWEVER, NO SYSTEM CAN GUARANTEE ABSOLUTE SECURITY. By using the App you acknowledge and accept that:
+
+- No method of electronic storage or transmission is 100% secure
+- We cannot guarantee that unauthorized access, data loss, or breaches will never occur
+- We are not liable for security incidents beyond our reasonable control
+
+In the event of a data breach that affects your personal information, we will notify you as required by applicable law.
+
+---
+
+## 10. International Data Transfers
+
+Yodha Systems LLC is based in the United States. By using the App, you acknowledge that data may be processed in jurisdictions outside your country, including the United States, where data protection laws may differ from those in your jurisdiction.
+
+Third-party services we use (Firebase, RevenueCat) may process data in multiple countries. We ensure these providers maintain appropriate safeguards under their respective data processing agreements.
+
+Your journal content is stored exclusively on your device and is never transferred internationally, except for opt-in AI Insights (Ultra tier only), which is processed anonymously and never stored post-processing.
+
+---
+
+## 11. India — Digital Personal Data Protection Act 2023 (DPDP)
+
+For users in India, the following additional rights and obligations apply under the Digital Personal Data Protection Act, 2023 (DPDP Act):
+
+**Data Fiduciary:**
+Yodha Systems LLC is the Data Fiduciary responsible for processing your personal data.
+
+**Your Rights as a Data Principal:**
+- Right to access information about personal data processed
+- Right to correction and erasure of inaccurate or incomplete data
+- Right to grievance redressal
+- Right to nominate another person to exercise your rights
+
+**Grievance Redressal:**
+If you have a grievance regarding the processing of your personal data, you may contact our Grievance Officer at: deepletgo@gmail.com
+
+We will acknowledge your grievance within 48 hours and resolve it within 30 days of receipt.
+
+---
+
+## 12. Children's Privacy & Minor Protections
+
+**The App is not directed to children under the age of 13.** If we learn that a user is under 13, we will take steps to ensure that no data is retained.
+
+**Users aged 13–17** may use all journaling, mood check-in, and local (non-AI) features. The following protections apply automatically to minors:
+
+- No behavioral profiling based on activity or emotional patterns
+- No emotional analysis transmitted off-device
+- No targeted persuasion techniques or ad-based engagement mechanics
+
+**AI-powered features are restricted to users aged 18 and older.** A date-of-birth check is performed at the time of subscription purchase — your date of birth is never stored; only a verification flag is retained locally on your device. This gating ensures AI-driven emotional analysis and pattern synthesis are never available to minors.
+
+**The App does not provide counseling, therapy, or mental health services to minors** (or to any user). DELO is a personal expression tool — it does not attempt to interpret or improve your mental state.
+
+Due to our zero-knowledge architecture, we do not knowingly or actively collect personal information from any user. All content remains encrypted locally on your device.
+
+---
+
+## 13. Data Retention
+
+- **Local data:** Retained on your device until you delete it or use the Panic Delete feature.
+- **Analytics data:** Retained by Firebase for up to 14 months, after which it is automatically deleted.
+- **Crash reports:** Retained by Firebase Crashlytics for 90 days.
+- **Subscription data:** Retained by Apple/Google per their respective policies.
+
+---
+
+## 14. Changes to This Policy
+
+We may update this Privacy Policy from time to time. When we make material changes, we will:
+
+- Update the "Last updated" date at the top of this policy
+- Increment the legal version number in the app
+- Require re-acceptance of the legal disclaimer
+
+Continued use of the app after changes constitutes acceptance of the updated policy.
+
+---
+
+## 15. Contact Us
+
+If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
+
 **deepletgo@gmail.com**
+
+Yodha Systems LLC
+New Jersey, United States

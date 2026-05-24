@@ -74,6 +74,8 @@ DELO is a self-help/wellness tool and not a substitute for professional mental h
 
 NOT MEDICAL OR THERAPEUTIC ADVICE: The App is not intended to diagnose, treat, cure, or prevent any disease or mental health condition. It is not a substitute for professional medical, psychological, or psychiatric care.
 
+WELLNESS PRACTICES: The App includes optional guided breathing exercises and gentle body-awareness practices (such as somatic check-ins and breath-paced relaxation). These are relaxation and self-awareness tools only — not medical treatment. Stop immediately if you feel dizzy, short of breath, or uncomfortable in any way. If you have a respiratory, cardiovascular, anxiety, or other relevant medical condition, consult a qualified healthcare professional before using these features. All wellness practices are voluntary and can be skipped at any time. The Developer is not liable for any physical or psychological effects arising from use of these features.
+
 CRISIS SITUATIONS: If you are experiencing a mental health crisis, suicidal thoughts, or self-harm urges, contact emergency services (911 in the US) or a crisis hotline immediately. Do not rely solely on the App.
 
 AS-IS WARRANTY: The App is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.

@@ -1,6 +1,6 @@
 # DELO Privacy Policy
 
-**Last updated: September 27, 2026**
+**Last updated: October 7, 2026**
 
 ---
 
@@ -93,7 +93,7 @@ Your journal entries and secrets are:
 
 App settings and preferences are stored locally using your device's secure storage mechanisms (SharedPreferences, Keychain/Keystore).
 
-**AI Insights (opt-in, Ultra tier only):**
+**AI Insights (opt-in; Premium and Ultra; adults 18 and older):**
 
 If you choose to enable AI Insights, the decrypted text of released entries is sent via our Cloud Function proxy to a third-party AI provider (Anthropic Claude for single-entry reflections, Google Gemini for batch pattern analysis — see Section 6) to generate reflections. This data is:
 
@@ -110,7 +110,7 @@ If you select body zones during a somatic check-in (e.g. "shoulders", "chest"), 
 
 **Wearable Sync & Wellness Signals (opt-in, Premium tier and above):**
 
-If you connect a wearable or activity tracker (e.g. Apple Watch via Apple Health, Wear OS via Google Health Connect), DELO reads read-only wellness signals — such as activity level, sleep duration, and recovery patterns — from your device's activity store. These signals are:
+If you connect a wearable or activity tracker (Apple Health on iPhone, e.g. with an Apple Watch), DELO reads read-only wellness signals — such as activity level, sleep duration, and recovery patterns — from your device's activity store. These signals are:
 
 - Stored in encrypted form on your device only
 - Never sold, shared, or transmitted in identifiable form, to anyone, including AI providers
@@ -133,18 +133,21 @@ We use the following third-party services:
 - Processes payments through Apple App Store / Google Play
 - Privacy: https://www.revenuecat.com/privacy
 
-**Apple Watch / Activity Trackers (via Apple Health on iOS/macOS, Google Health Connect on Android):**
+**Apple Watch / Activity Trackers (via Apple Health on iPhone):**
 - Read-only access to wellness signals when you grant permission
 - Wellness data remains on your device; never transmitted anywhere, including to AI providers
 - Apple Health privacy: https://www.apple.com/legal/privacy/data/en/health-app/
-- Health Connect privacy: https://support.google.com/fit/answer/14280362
 
-**Anthropic / Google (AI providers — Ultra tier only):**
+**Anthropic / Google (AI providers — Premium and Ultra, adults 18 and older):**
 - Receive anonymous AI request payloads via our Cloud Function proxy
 - Anthropic: https://www.anthropic.com/privacy
 - Google: https://policies.google.com/privacy
 
-These services process only the minimum data necessary for their function. None of them have access to your raw journal content or identifiable wellness data.
+**Voice dictation (Apple / Google speech recognition):**
+- For adults, dictation uses your device's built-in speech recognition, which may send audio to Apple or Google to turn it into text, under their privacy policies. DELO never receives the audio.
+- For users under 18, dictation runs on the device only.
+
+These services process only the minimum data necessary for their function. Apart from AI Insights (above), none of them receive your journal content, and none receive identifiable wellness data.
 
 ---
 
@@ -200,7 +203,7 @@ Yodha Systems LLC is based in the United States. By using the App, you acknowled
 
 Third-party services we use (Firebase, RevenueCat) may process data in multiple countries. We ensure these providers maintain appropriate safeguards under their respective data processing agreements.
 
-Your journal content is stored exclusively on your device and is never transferred internationally, except for opt-in AI Insights (Premium and Ultra plans, adults 18 and older only). With your explicit consent, the text of entries you release — which may include information about your health, feelings, or wellbeing — is sent to Anthropic and Google and processed in the United States. It is processed anonymously and is not stored after processing. You can withdraw this consent at any time by turning off AI Insights in Settings › Security & Data.
+Your journal content is stored exclusively on your device and is never transferred internationally, except for opt-in AI Insights (Premium and Ultra plans, adults 18 and older only). With your explicit consent, the text of entries you let go — which may include information about your health, feelings, or wellbeing — is sent to Anthropic and Google and processed in the United States. It is processed anonymously and is not stored after processing. You can withdraw this consent at any time by turning off AI Insights in Settings › Security & Data.
 
 ---
 
@@ -247,7 +250,7 @@ The only information that leaves the device for a user aged 9–12 supports the 
 - No targeted persuasion techniques, win-back offers, or ad-based engagement mechanics
 - Voice dictation runs on the device only
 
-Anonymous crash reports (Section 3) and optional Sign in with Apple or Google for backup are available from age 13.
+Anonymous crash reports (Section 3) and optional Sign in with Apple or Google are available from age 13.
 
 **AI Insights and Body & Mind are restricted to users aged 18 and older** on every plan. For anyone under 18 these features are hidden, no health or wearable data is read, and nothing is ever sent to our AI providers.
 
@@ -265,7 +268,7 @@ Your journal content and vault entries use a zero-knowledge architecture: they r
 
 ## 13. Data Retention
 
-- **Local data:** Retained on your device until you delete it or use the Panic Delete feature.
+- **Local data:** Retained on your device until you delete it or use Erase Everything.
 - **Analytics data:** Retained by Firebase for up to 14 months, after which it is automatically deleted.
 - **Crash reports:** Retained by Firebase Crashlytics for 90 days.
 - **Subscription data:** Retained by Apple/Google per their respective policies.

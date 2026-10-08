@@ -27,11 +27,11 @@ All rights not expressly granted to you in this EULA are reserved by Yodha Syste
 3. Data Privacy and Encryption
 **Encryption**: The App uses AES-256-GCM encryption to protect Your Content. All sensitive data is encrypted locally on your device before storage.
 
-**Content Storage**: Your content is stored only on your device, in encrypted form. We do not keep a copy of Your Content on our servers. The only time any of it leaves your device is when you choose to use AI Insights, described below.
+**Content Storage**: Your content is stored only on your device, in encrypted form. We do not keep a copy of Your Content on our servers. Your Content leaves your device only when you choose to: use AI Insights (described below); use voice dictation, which for adults may be processed by Apple's or Google's speech service; or save, export or share a file.
 
-**AI Insights (optional; Premium and Ultra; adults 18 and older)**: If you turn on AI Insights, the decrypted text of the entries you choose is sent through our Cloud Function proxy to a third-party AI provider (Anthropic Claude for single-entry reflections, Google Gemini for pattern analysis) to generate your insight. It is sent without your name or account details, and it is not stored on any server after processing. See the Privacy Policy and AI Transparency notice for details.
+**AI Insights (optional; Premium and Ultra; adults 18 and older)**: If you turn on AI Insights, the decrypted text of entries you have let go is sent through our Cloud Function proxy to a third-party AI provider (Anthropic Claude for single-entry reflections, Google Gemini for pattern analysis across your recent entries, which may be prepared in the background after you let go) to generate your insights. It is sent without your name or account details, and it is not stored on any server after processing. See the Privacy Policy and AI Transparency notice for details.
 
-**Wearable Sync & Wellness Signals (Body & Mind; Premium and above; adults 18 and older; iPhone and Mac only)**: If you choose to connect Apple Health (for example, with an Apple Watch), the App reads wellness signals (e.g. activity level, sleep duration, recovery patterns) in read-only mode. This data is:
+**Wearable Sync & Wellness Signals (Body & Mind; Premium and above; adults 18 and older; iPhone only)**: If you choose to connect Apple Health (for example, with an Apple Watch), the App reads wellness signals (e.g. activity level, sleep duration, recovery patterns) in read-only mode. This data is:
   • Stored in encrypted form on your device only
   • Never sold, shared, or transmitted in identifiable form, to anyone, including AI providers
   • Used exclusively for on-device features: the Health Correlation Card and the proactive wellness nudge
@@ -132,7 +132,7 @@ The App integrates with third-party services:
 • **Apple App Store / Google Play Store**: For subscription billing
 • **Firebase (Google)**: For app configuration, sign-in (ages 13 and older), crash reporting (ages 13 and older) and analytics (adults, opt-in)
 • **RevenueCat**: For subscription management
-• **Apple Health (iPhone and Mac)**: Read-only wellness signals for Body & Mind when you grant permission (Premium+, adults 18+); never transmitted off your device
+• **Apple Health (iPhone)**: Read-only wellness signals for Body & Mind when you grant permission (Premium+, adults 18+); never transmitted off your device
 • **Anthropic / Google (AI)**: Processing of AI Insights requests (Premium and Ultra, adults 18+, opt-in), sent without your name or account details
 
 Your use of these services is subject to their respective terms and privacy policies. We are not responsible for third-party services or their availability.

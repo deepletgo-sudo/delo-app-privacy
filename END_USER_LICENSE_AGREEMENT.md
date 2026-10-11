@@ -15,7 +15,7 @@ This license does not allow you to:
 • Reverse engineer, decompile, or disassemble the App
 • Remove or alter any proprietary notices or labels
 
-**Age Eligibility**: The App is intended for users aged 9 and older. Users under 18 may use the App only with the permission of a parent or legal guardian, who agrees to this EULA on the user's behalf. AI-powered features and Body & Mind are restricted to users aged 18 and older, and Privacy Shield to users aged 16 and older, on every plan. Some countries have a higher minimum age, as set out in our Terms of Service.
+**Age Eligibility**: The App is intended for users aged 9 and older. Users under 18 may use the App only with the permission of a parent or legal guardian, who agrees to this EULA on the user's behalf. For users aged 9 to 12, the parent or guardian accepts this EULA in the App, after an adult check; where the app store reports a parent-managed account (Family Sharing or Family Link), that is recorded on the device. Users aged 13 to 17 confirm that a parent or guardian knows they are using the App. AI-powered features and Body & Mind are restricted to users aged 18 and older, and Privacy Shield to users aged 16 and older, on every plan. Some countries have a higher minimum age, as set out in our Terms of Service.
 
 2. Ownership and Intellectual Property
 The App, including all content, features, functionality, software code, design, graphics, text, and trademarks, is owned by Yodha Systems LLC and protected by international copyright, trademark, and other intellectual property laws.
